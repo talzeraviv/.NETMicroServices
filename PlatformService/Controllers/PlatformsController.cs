@@ -1,5 +1,6 @@
 using AutoMapper;
 using Microsoft.AspNetCore.Mvc;
+using PlatformService.AsyncDataServices;
 using PlatformService.Data.Repositories;
 using PlatformService.Dtos;
 using PlatformService.Models;
@@ -14,12 +15,14 @@ namespace PlatformService.Controllers
         private readonly IPlatformRepository _repository;
         private readonly IMapper _mapper;
         private readonly ICommandDataClient _commandDataClient;
+        private readonly IMessageBusClient _messageBusClient;
 
-        public PlatformsController(IPlatformRepository repository, IMapper mapper, ICommandDataClient commandDataClient)
+        public PlatformsController(IPlatformRepository repository, IMapper mapper, ICommandDataClient commandDataClient, IMessageBusClient messageBusClient)
         {
             _repository = repository;
             _mapper = mapper;
             _commandDataClient = commandDataClient;
+            _messageBusClient = messageBusClient;
         }
 
         [HttpGet]
@@ -44,7 +47,7 @@ namespace PlatformService.Controllers
         }
 
         [HttpPost]
-        public async Task<ActionResult<PlatformReadDto>> CreatePlatformAsync(PlatformCreateDto platformCreateDto)
+        public ActionResult<PlatformReadDto> CreatePlatform(PlatformCreateDto platformCreateDto)
         {
             var platformModel = _mapper.Map<Platform>(platformCreateDto);
             _repository.Create(platformModel);
@@ -54,7 +57,10 @@ namespace PlatformService.Controllers
 
             try
             {
-                await _commandDataClient.SendPlatformToCommand(platformReadDto);
+                var platformPublishDto =
+                _mapper.Map<PlatformPublishDto>(platformReadDto);
+                platformPublishDto.Event = "Platform_Published";
+                _messageBusClient.PublishNewPlatform(platformPublishDto);
             }
             catch (Exception ex)
             {

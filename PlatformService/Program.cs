@@ -2,9 +2,10 @@ using Microsoft.EntityFrameworkCore;
 using PlatformService.Data.Repositories;
 using PlatformService.Data;
 using PlatformService.SyncDataServices.Http;
-using Microsoft.Extensions.Configuration;
+using PlatformService.AsyncDataServices;
 
 var builder = WebApplication.CreateBuilder(args);
+var Configuration = builder.Configuration;
 
 // Add services to the container.
 
@@ -18,7 +19,7 @@ if (IsDevelopment)
 }
 else
 {
-    var connectionString = builder.Configuration.GetConnectionString("PlatformsConn");
+    var connectionString = Configuration.GetConnectionString("PlatformsConn");
     Console.WriteLine("=> Using SQL Server Database. <=");
     builder.Services.AddDbContext<AppDbContext>(options => options.UseSqlServer(connectionString));
 }
@@ -27,6 +28,7 @@ else
 builder.Services.AddScoped<IPlatformRepository, PlatformRepository>();
 builder.Services.AddHttpClient<ICommandDataClient, HttpCommandDataClient>();
 builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
+builder.Services.AddSingleton<IMessageBusClient, MessageBusClient>();
 
 builder.Services.AddControllers();
 
@@ -34,8 +36,8 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
-var CommandServiceEndpoint = builder.Configuration.GetValue<string>("CommandService");
-System.Console.WriteLine($"=> Command Service Endpoint {CommandServiceEndpoint} <=");
+var CommandServiceEndpoint = builder.Configuration["CommandService"];
+Console.WriteLine($"=> Command Service Endpoint {CommandServiceEndpoint} <=");
 
 var app = builder.Build();
 

@@ -25,7 +25,7 @@ namespace CommandsService.Controllers
         [HttpPost]
         public ActionResult TestInboundConnection()
         {
-            System.Console.WriteLine("=> InBound POST # Command Service <=");
+            Console.WriteLine("=> InBound POST # Command Service <=");
             return Ok("Inbound Test OK from Platforms Controller");
         }
 

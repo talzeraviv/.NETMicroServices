@@ -1,7 +1,3 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 using CommandsService.Models;
 
 namespace CommandsService.Repositories
@@ -10,5 +6,6 @@ namespace CommandsService.Repositories
     {
         IEnumerable<Platform> GetAllPlatforms();
         void CreatePlatform(Platform platform);
+        bool ExternalPlatformExists(int externalPlatformId);
     }
 }

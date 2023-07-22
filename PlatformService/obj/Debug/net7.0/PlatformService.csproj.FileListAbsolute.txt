@@ -77,3 +77,4 @@ C:\Users\Tal Zer-Aviv\Desktop\.NET-MicroServices\PlatformService\obj\Debug\net7.
 C:\Users\Tal Zer-Aviv\Desktop\.NET-MicroServices\PlatformService\obj\Debug\net7.0\PlatformService.pdb
 C:\Users\Tal Zer-Aviv\Desktop\.NET-MicroServices\PlatformService\obj\Debug\net7.0\PlatformService.genruntimeconfig.cache
 C:\Users\Tal Zer-Aviv\Desktop\.NET-MicroServices\PlatformService\obj\Debug\net7.0\ref\PlatformService.dll
+C:\Users\Tal Zer-Aviv\Desktop\.NET-MicroServices\PlatformService\bin\Debug\net7.0\RabbitMQ.Client.dll
