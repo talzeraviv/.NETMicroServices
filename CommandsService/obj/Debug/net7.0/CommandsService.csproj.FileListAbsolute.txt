@@ -43,3 +43,7 @@ C:\Users\Tal Zer-Aviv\Desktop\.NET-MicroServices\CommandsService\obj\Debug\net7.
 C:\Users\Tal Zer-Aviv\Desktop\.NET-MicroServices\CommandsService\obj\Debug\net7.0\CommandsService.genruntimeconfig.cache
 C:\Users\Tal Zer-Aviv\Desktop\.NET-MicroServices\CommandsService\obj\Debug\net7.0\ref\CommandsService.dll
 C:\Users\Tal Zer-Aviv\Desktop\.NET-MicroServices\CommandsService\bin\Debug\net7.0\RabbitMQ.Client.dll
+C:\Users\Tal Zer-Aviv\Desktop\.NET-MicroServices\CommandsService\bin\Debug\net7.0\Google.Protobuf.dll
+C:\Users\Tal Zer-Aviv\Desktop\.NET-MicroServices\CommandsService\bin\Debug\net7.0\Grpc.Core.Api.dll
+C:\Users\Tal Zer-Aviv\Desktop\.NET-MicroServices\CommandsService\bin\Debug\net7.0\Grpc.Net.Client.dll
+C:\Users\Tal Zer-Aviv\Desktop\.NET-MicroServices\CommandsService\bin\Debug\net7.0\Grpc.Net.Common.dll

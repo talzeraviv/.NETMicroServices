@@ -1,11 +1,16 @@
 {
   "version": 2,
-  "dgSpecHash": "HAaQlWLdcbXElpCY3UaLzqUISCRdJrLcGWtQ8p0WxlZ9CN2x0cFEP+LIVQdr7I4HRhmCXDPvhjZ+exLhqpI7nQ==",
+  "dgSpecHash": "hzTUArDAAzbk+h8WBa10UbMqYOizQFIvSipmzCFXwsZod2yq/3XwYZOJ4zV2WPQ0zR/fAfk76kSE0BKMC32Y2Q==",
   "success": true,
   "projectFilePath": "C:\\Users\\Tal Zer-Aviv\\Desktop\\.NET-MicroServices\\CommandsService\\CommandsService.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Tal Zer-Aviv\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\Tal Zer-Aviv\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",
+    "C:\\Users\\Tal Zer-Aviv\\.nuget\\packages\\google.protobuf\\3.23.4\\google.protobuf.3.23.4.nupkg.sha512",
+    "C:\\Users\\Tal Zer-Aviv\\.nuget\\packages\\grpc.core.api\\2.55.0\\grpc.core.api.2.55.0.nupkg.sha512",
+    "C:\\Users\\Tal Zer-Aviv\\.nuget\\packages\\grpc.net.client\\2.55.0\\grpc.net.client.2.55.0.nupkg.sha512",
+    "C:\\Users\\Tal Zer-Aviv\\.nuget\\packages\\grpc.net.common\\2.55.0\\grpc.net.common.2.55.0.nupkg.sha512",
+    "C:\\Users\\Tal Zer-Aviv\\.nuget\\packages\\grpc.tools\\2.56.2\\grpc.tools.2.56.2.nupkg.sha512",
     "C:\\Users\\Tal Zer-Aviv\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\Tal Zer-Aviv\\.nuget\\packages\\microsoft.aspnetcore.openapi\\7.0.9\\microsoft.aspnetcore.openapi.7.0.9.nupkg.sha512",
     "C:\\Users\\Tal Zer-Aviv\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",

@@ -1,5 +1,4 @@
 C:\Users\Tal Zer-Aviv\Desktop\.NET-MicroServices\PlatformService\bin\Debug\net7.0\appsettings.Development.json
-C:\Users\Tal Zer-Aviv\Desktop\.NET-MicroServices\PlatformService\bin\Debug\net7.0\appsettings.json
 C:\Users\Tal Zer-Aviv\Desktop\.NET-MicroServices\PlatformService\bin\Debug\net7.0\PlatformService.exe
 C:\Users\Tal Zer-Aviv\Desktop\.NET-MicroServices\PlatformService\bin\Debug\net7.0\PlatformService.deps.json
 C:\Users\Tal Zer-Aviv\Desktop\.NET-MicroServices\PlatformService\bin\Debug\net7.0\PlatformService.runtimeconfig.json
@@ -78,3 +77,11 @@ C:\Users\Tal Zer-Aviv\Desktop\.NET-MicroServices\PlatformService\obj\Debug\net7.
 C:\Users\Tal Zer-Aviv\Desktop\.NET-MicroServices\PlatformService\obj\Debug\net7.0\PlatformService.genruntimeconfig.cache
 C:\Users\Tal Zer-Aviv\Desktop\.NET-MicroServices\PlatformService\obj\Debug\net7.0\ref\PlatformService.dll
 C:\Users\Tal Zer-Aviv\Desktop\.NET-MicroServices\PlatformService\bin\Debug\net7.0\RabbitMQ.Client.dll
+C:\Users\Tal Zer-Aviv\Desktop\.NET-MicroServices\PlatformService\bin\Debug\net7.0\Google.Protobuf.dll
+C:\Users\Tal Zer-Aviv\Desktop\.NET-MicroServices\PlatformService\bin\Debug\net7.0\Grpc.AspNetCore.Server.dll
+C:\Users\Tal Zer-Aviv\Desktop\.NET-MicroServices\PlatformService\bin\Debug\net7.0\Grpc.AspNetCore.Server.ClientFactory.dll
+C:\Users\Tal Zer-Aviv\Desktop\.NET-MicroServices\PlatformService\bin\Debug\net7.0\Grpc.Core.Api.dll
+C:\Users\Tal Zer-Aviv\Desktop\.NET-MicroServices\PlatformService\bin\Debug\net7.0\Grpc.Net.Client.dll
+C:\Users\Tal Zer-Aviv\Desktop\.NET-MicroServices\PlatformService\bin\Debug\net7.0\Grpc.Net.ClientFactory.dll
+C:\Users\Tal Zer-Aviv\Desktop\.NET-MicroServices\PlatformService\bin\Debug\net7.0\Grpc.Net.Common.dll
+C:\Users\Tal Zer-Aviv\Desktop\.NET-MicroServices\PlatformService\bin\Debug\net7.0\appsettings.Production.json

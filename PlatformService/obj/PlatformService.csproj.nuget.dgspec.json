@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\Tal Zer-Aviv\\Desktop\\.NET-MicroServices\\PlatformService\\PlatformService.csproj": {}
+    "C:\\Users\\Tal Zer-Aviv\\Desktop\\.NET-MicroServices\\PlatformService\\PlatformService.csproj": {}
   },
   "projects": {
-    "c:\\Users\\Tal Zer-Aviv\\Desktop\\.NET-MicroServices\\PlatformService\\PlatformService.csproj": {
+    "C:\\Users\\Tal Zer-Aviv\\Desktop\\.NET-MicroServices\\PlatformService\\PlatformService.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\Tal Zer-Aviv\\Desktop\\.NET-MicroServices\\PlatformService\\PlatformService.csproj",
+        "projectUniqueName": "C:\\Users\\Tal Zer-Aviv\\Desktop\\.NET-MicroServices\\PlatformService\\PlatformService.csproj",
         "projectName": "PlatformService",
-        "projectPath": "c:\\Users\\Tal Zer-Aviv\\Desktop\\.NET-MicroServices\\PlatformService\\PlatformService.csproj",
+        "projectPath": "C:\\Users\\Tal Zer-Aviv\\Desktop\\.NET-MicroServices\\PlatformService\\PlatformService.csproj",
         "packagesPath": "C:\\Users\\Tal Zer-Aviv\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\Tal Zer-Aviv\\Desktop\\.NET-MicroServices\\PlatformService\\obj\\",
+        "outputPath": "C:\\Users\\Tal Zer-Aviv\\Desktop\\.NET-MicroServices\\PlatformService\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -49,6 +49,10 @@
             "AutoMapper.Extensions.Microsoft.DependencyInjection": {
               "target": "Package",
               "version": "[12.0.1, )"
+            },
+            "Grpc.AspNetCore": {
+              "target": "Package",
+              "version": "[2.55.0, )"
             },
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
